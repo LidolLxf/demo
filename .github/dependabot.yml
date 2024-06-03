@@ -5,9 +5,8 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-    target:
+    target-branch: "main-copy":
       # Specify the branches to scan here
-      - name: "main-copy"
   - package-ecosystem: npm
     directory: "/javascript"
     schedule:
