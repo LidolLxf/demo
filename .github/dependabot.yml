@@ -7,10 +7,10 @@ updates:
       interval: "weekly"
     target-branch: "main-copy"
       # Specify the branches to scan here
-#  - package-ecosystem: npm
-#    directory: "/javascript"
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: "weekly"
 #  - package-ecosystem: bundler
 #    directory: "/ruby"
 #    schedule:
