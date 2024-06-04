@@ -25,7 +25,7 @@ jobs:
           node-version: '20' # specify Node.js 20 here
 
       - name: Export Dependabot alerts
-        uses: actions/dependabot-alert-export@v1.0
+        uses: ambilykk/dependabot-alert-export@v1.0
         with:        
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           org_name: 'LidolLxf'
