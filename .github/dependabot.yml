@@ -5,6 +5,7 @@ updates:
     directory: "/go"
     schedule:
       interval: "weekly"
+
     # target-branch: "main-copy"
       # Specify the branches to scan here
   # - package-ecosystem: npm
