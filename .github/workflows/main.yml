@@ -27,7 +27,7 @@ jobs:
       - name: Export Dependabot alerts
         uses: affrae/dependabot-alert-export@main
         with:        
-          GITHUB_TOKEN: ${{secrets.GH_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           org_name: 'LidolLxf'
           repo_name: 'demo'
           csv_path: data/vulnerability.csv
