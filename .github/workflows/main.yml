@@ -17,7 +17,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Export Dependabot alerts
-        uses: ambilykk/dependabot-alert-export@v1.0
+        uses: ShamKarthikS-Hexaware/dependabot-alert-export@v1.0
         with:        
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           org_name: 'LidolLxf'
