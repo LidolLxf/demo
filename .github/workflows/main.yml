@@ -21,6 +21,8 @@ jobs:
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3.4.1
+        with:
+          node-version: '20' # specify Node.js 20 here
 
       - name: Export Dependabot alerts
         uses: affrae/dependabot-alert-export@main
