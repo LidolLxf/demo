@@ -20,7 +20,7 @@ jobs:
         uses: ShamKarthikS-Hexaware/dependabot-alert-export@v1.0
         with:        
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          org_name: 'LidolLxf'
+          org_name: 'https://github.com/LidolLxf'
           repo_name: 'demo'
           csv_path: data/vulnerability.csv
           
